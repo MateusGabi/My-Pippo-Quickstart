@@ -11,7 +11,9 @@ Pippo-cli will read ````PippoFile.json```, will clone a [dummy project](https://
 ## How it work NOW?
 
  ```git clone git@github.com:MateusGabi/My-Pippo-Quickstart.git```
+ 
  ```cd My-Pippo-Quickstart```
+ 
  ```sh Pippocli.sh new App```
 
 Then, read Pippo Documentation [http://www.pippo.ro/doc/getting-started.html](http://www.pippo.ro/doc/getting-started.html)
