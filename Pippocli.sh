@@ -54,7 +54,11 @@ __NEW()
     ls -l
 }
 
-
+__RUN()
+{
+	cd App/target/
+	mvn compile exec:java
+}
 
 
 # say hello
@@ -68,6 +72,7 @@ __greetings
 case $1 in
 
 new) __NEW $2 ;;
+run) __RUN ;;
 
 
 *) __OPTIONS ;;
